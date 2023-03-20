@@ -1,0 +1,215 @@
+[
+ {
+        "question": "אנא בחר את המעגל הנכון?",
+        "type": "multiple_choice",
+        "answers": 
+         [
+            {
+                "answer": "A",
+                "correct": true,
+                "feedback": "!נכון"
+            },
+            {
+                "answer": "B",
+                "correct": false,
+                "feedback": "לא"
+            },
+            {
+                "answer": "C",
+                "correct": false,
+                "feedback": "לא"
+            },
+            {
+                "answer": "D",
+                "correct": false,
+                "feedback": "לא"
+            }
+        ]
+    },
+    {
+        "question": "איזה מהערוצים מודד מתח גדול יותר?",
+        "type": "multiple_choice",
+        "answers": 
+        [
+            {
+                "answer": "לא ניתן לדעת, זה תלוי בסקאלת הסקופ",
+                "correct": false,
+                "feedback": "לא"
+            },
+            {
+                "answer": "הערוצים מודדים מתח שווה",
+                "correct": false,
+                "feedback": "לא"
+            },
+            {
+                "answer": "ערוץ Y",
+                "correct": false,
+                "feedback": "לא"
+            },
+            {
+                "answer": "ערוץ X",
+                "correct": true,
+                "feedback": "כן!"
+            }
+       ]     
+    },
+    {
+        "question": "על איזה משני הנגדים אתם יכולים למדוד את המתח ישירות בעזרת הסקופ באופן שבו מורכב המעגל?",
+        "type": "multiple_choice",
+        "answers": 
+        [
+            {
+                "answer": "על הנגד שקרוב להדק עם המתח הגבוה של המחולל",
+                "correct": false,
+                "feedback": "לא"
+            },
+            {
+                "answer": "אפשר למדוד את המתח על כל אחד משני הנגדים, ללא שינוי המעגל",
+                "correct": false,
+                "feedback": "לא"
+            },
+            {
+                "answer": "אפשר למדוד רק את סכום המתחים על שני הנגדים",
+                "correct": false,
+                "feedback": "לא"
+            },
+            {
+                "answer": "על הנגד שקרוב להדק ההארקה של המחולל",
+                "correct": true,
+                "feedback": "מצויין"
+            }
+         ]
+    }
+,
+    {
+        "question": "המתח הנופל על הנגד שאתם לא מודדים בערוץ Y הוא",
+              "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "לא ניתן לקבוע",
+                "correct": false,
+                "feedback": "לא"
+            },
+            {
+                "answer": "$V_x + V_y$",
+                "correct": false,
+                "feedback": "לא"
+            },
+            {
+                "answer": "$V_x - V_y$",
+                "correct": true,
+                "feedback": "מצויין!"
+            },
+            {
+                "answer": "$V_y - V_x$",
+                "correct": false,
+                "feedback": "לא"
+            }
+    
+        ]
+    }
+,
+    {
+        "question": "מה צריכה להיות ההתנגדות של $R_2$ על מנת ליצור מחלק מתח 1:10 בהינתן שהנגד $R_1$ =180 אוהם?",
+        "type": "numeric",
+        "answers": [
+            {
+                "type": "value",
+                "value": 20,
+                "correct": true,
+                "feedback": "נכון"
+            },
+            {
+                "type": "default",
+                "correct": false,
+                "feedback": "..."
+            }
+        ]
+    }
+,
+    {
+        "question": "כיצד השתנה המתח בערוץ Y",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "ייתכן שיירד קצת",
+                "correct": false,
+                "feedback": "טעות, נסה שוב.."
+            },
+            {
+                "answer": "אין שינוי",
+                "correct": true,
+                "feedback": "תשובה נכונה, מצוין"
+            },
+            {
+                "answer": "ייתכן שעלה קצת",
+                "correct": false,
+                "feedback": ".."
+            },
+            {
+                "answer": "הירד מאד",
+                "correct": false,
+                "feedback": "לא"
+            }
+    
+        ]
+    }
+,
+    {
+        "question": "כעת, הוסיפו למעגל גם נגד שמחובר במקביל לנגד שהמתח עליו לא נמדד כרגע בערוץ Y. איזה מהציורים מתאר את המעגל שהרכבתם?",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "A",
+                "correct": false,
+                "feedback": "טעות, נסה שוב.."
+            },
+            {
+                "answer": "B",
+                "correct": true,
+                "feedback": "נכון מאד. חשבו כיצד השפיע חיבור הנגד על המתח בערוץ צ? האם התוצאה מתאימה לנוסחת מחלק מתח?"
+            },
+            {
+                "answer": "C",
+                "correct": false,
+                "feedback": "טעות, נסה שוב.."
+            },
+            {
+                "answer": "D",
+                "correct": false,
+                "feedback": "טעות, נסה שוב.."
+            }
+    
+        ]
+    }
+    
+,
+    {
+        "question": "",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "",
+                "correct": false,
+                "feedback": "טעות, נסה שוב.."
+            },
+            {
+                "answer": "",
+                "correct": true,
+                "feedback": "חישבו, כיצד הוספת הנגד השפיעה על נוסחת מחלק המתח?"
+            },
+            {
+                "answer": "",
+                "correct": false,
+                "feedback": ".."
+            },
+            {
+                "answer": "",
+                "correct": false,
+                "feedback": "לא"
+            }
+    
+        ]
+    }
+    
+]

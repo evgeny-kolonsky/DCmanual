@@ -211,5 +211,36 @@
     
         ]
     }
-    
+,
+        {
+        "question": "To build Voltage Divider with ratio %variant you have chosen resistances $R_1$=%R1 Ohm and $R_2$=%R2 Ohm. Check if it is correct:",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "בודק",
+                "correct": "%correct",
+                "feedback": "%feedback"
+            }
+        ]
+    }
+,
+
+    {
+        "question": "What Voltage Divider ratio did you actually received?",
+        "type": "numeric",
+        "precision": 2,
+        "answers": [
+            {
+                "type": "range",
+                "range": ["%low", "%high"], 
+                "correct": true,
+                "feedback": "נכון! מצויין!"
+            },
+            {
+                "type": "default",
+                "correct": false,                
+                "feedback": "You should get ratio $a = {R_2 \\over (R_1+R_2)}$  ±10%."
+            }
+        ]
+    }
 ]

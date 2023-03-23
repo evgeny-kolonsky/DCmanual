@@ -38,8 +38,10 @@ def update_quiz(R1, R2):
         q[0]['answers'][0]['correct'] = True        
         q[0]['answers'][0]['feedback'] = "נכון!"        
     else:
-        q[0]['answers'][0]['correct'] = False        
-        q[0]['answers'][0]['feedback'] = "No... You will get ratio $a = {R_2 \\over (R_1+R_2)}$ =" + "{:.2f}".format(a_built)        
+        q[0]['answers'][0]['correct'] = False
+        s = q[0]['answers'][0]['feedback']
+        s = s.replace('%a', "{:.2f}".format(a_built))
+        q[0]['answers'][0]['feedback'] = s         
     
     low = a_built * (1 - ERROR)
     high = a_built * (1 + ERROR)

@@ -219,7 +219,7 @@
             {
                 "answer": "בודק",
                 "correct": "%correct",
-                "feedback": "%feedback"
+                "feedback": "You will get ratio $a = {R_2 \\over R_1+R_2}$ = %a"
             }
         ]
     }
@@ -239,7 +239,7 @@
             {
                 "type": "default",
                 "correct": false,                
-                "feedback": "You should get ratio $a = {R_2 \\over (R_1+R_2)}$  ±10%."
+                "feedback": "You should get ratio $a = {R_2 \\over R_1+R_2}$  ±10%."
             }
         ]
     }

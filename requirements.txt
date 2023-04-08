@@ -1,3 +1,2 @@
 jupyterquiz
-json
 numpy
